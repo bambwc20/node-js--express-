@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       script: "main.js",
-      watch: ["main.js", "./lib", "password.js"],
+      watch: ["main.js", "./lib", "password.js", "./public", "./routes"],
       // Delay between restart
       watch_options: {
         followSymlinks: false,
